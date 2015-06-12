@@ -1,0 +1,26 @@
+pi@raspberrypi ~/marshmallow-game $ sudo ./marshmallow.py 
+./marshmallow.py:7: RuntimeWarning: A physical pull up resistor is fitted on this channel!
+  GPIO.setup(2, GPIO.IN)
+marshmallow makes a good input
+amarshmallow makes a good input
+amarshmallow makes a good input
+amarshmallow makes a good input
+amarshmallow makes a good input
+amarshmallow makes a good input
+amarshmallow makes a good input
+amarshmallow makes a good input
+amarshmallow makes a good input
+amarshmallow makes a good input
+amarshmallow makes a good input
+marshmallow makes a good input
+marshmallow makes a good input
+marshmallow makes a good input
+marshmallow makes a good input
+marshmallow makes a good input
+marshmallow makes a good input
+marshmallow makes a good input
+marshmallow makes a good input
+^CTraceback (most recent call last):
+  File "./marshmallow.py", line 14, in <module>
+    time.sleep(0.5)
+KeyboardInterrupt

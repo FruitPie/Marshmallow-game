@@ -1,0 +1,11 @@
+pi@raspberrypi ~/marshmallow-game $ sudo ./marshmallow.py 
+./marshmallow.py:7: RuntimeWarning: A physical pull up resistor is fitted on this channel!
+  GPIO.setup(2, GPIO.IN)
+Traceback (most recent call last):
+  File "./marshmallow.py", line 8, in <module>
+    device = uinput.Device([uinput.KEY_A])
+  File "/usr/local/lib/python2.7/dist-packages/uinput/__init__.py", line 165, in __init__
+    self.__uinput_fd = _libsuinput.suinput_open()
+  File "/usr/local/lib/python2.7/dist-packages/uinput/__init__.py", line 64, in _error_handler
+    raise OSError(code, os.strerror(code))
+OSError: [Errno 2] No such file or directory
